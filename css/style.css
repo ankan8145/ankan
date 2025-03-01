@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Header & Navigation */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin: 0 1rem;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 2rem;
+  min-height: 80vh;
+}
+
+/* Home Page */
+#hero {
+  text-align: center;
+  margin-top: 2rem;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* About Page */
+.academic-details,
+.work-experience,
+.interests,
+.resume {
+  margin: 2rem 0;
+}
+.download-btn {
+  background: #ffcc00;
+  color: #333;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Publications & Projects */
+.publication-item,
+.project-item {
+  background: #fff;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.publication-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 1rem;
+  border-radius: 8px;
+}
+.pub-details {
+  flex: 1;
+}
+.project-item {
+  flex-direction: column;
+  text-align: left;
+}
+.year-group {
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+.contact a {
+  color: #ffcc00;
+  text-decoration: none;
+}
