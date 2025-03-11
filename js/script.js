@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* js/script.js */
 // This file can be used to add custom JavaScript effects or interactions.
 // Example: A simple script that ensures elements with the 'animate__animated'
@@ -26,8 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const details = element.nextElementSibling;
     details.style.display = details.style.display === "block" ? "none" : "block";
   }
-=======
-/* js/script.js */
+
+  /* js/script.js */
 // This file can be used to add custom JavaScript effects or interactions.
 // Example: A simple script that ensures elements with the 'animate__animated'
 // class get an additional effect on page load.
@@ -39,4 +38,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
   
->>>>>>> 6017697e4eec117dd31bd7139700ebc99f7170b3
