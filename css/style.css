@@ -192,6 +192,7 @@ main {
   padding: 0.8rem 0;
   border-bottom: 1px solid #ddd;
   font-size: 1rem;
+  text-align: center;
 }
 
 .paper-list a {
@@ -202,7 +203,8 @@ main {
   color: #007bff;
   font-weight: 500;
   text-decoration: none;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
+  margin: 0 0.5rem;
 }
 
 .paper-list a:hover {
@@ -212,6 +214,21 @@ main {
 
 .paper-list i {
   font-size: 1rem;
+}
+.paper-list li em {
+  margin-right: 1rem;
+}
+.paper-links {
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+/* For very small screens (e.g., less than 300px), allow wrapping if needed */
+@media (max-width: 300px) {
+  .paper-links {
+    white-space: normal;
+  }
 }
 
 
