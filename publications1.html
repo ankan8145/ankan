@@ -8,14 +8,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
+
+  <!-- Fixed Navigation Bar with Hamburger -->
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="animate__animated animate__fadeIn">Home</a></li>
-        <li><a href="about.html" class="animate__animated animate__fadeIn">About Me</a></li>
-        <li><a href="publications.html" class="animate__animated animate__fadeIn">Publications</a></li>
-        <li><a href="projects.html" class="animate__animated animate__fadeIn">Projects</a></li>
-      </ul>
+    <nav class="fixed-nav">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html">Ankan Deria</a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="publications.html" class="nav-link active">Publications</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
   

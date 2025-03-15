@@ -10,14 +10,24 @@
 </head>
 <body>
 
+  <!-- Fixed Navigation Bar with Hamburger -->
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About Me</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="projects.html">Projects</a></li>
-      </ul>
+    <nav class="fixed-nav">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html">Ankan Deria</a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
 
@@ -25,7 +35,7 @@
     <section id="about">
       <h1 class="section-title animate__animated animate__fadeInDown">About Me</h1>
       <p class="intro-text animate__animated animate__fadeInUp">
-        I am an aspiring <strong>AI Researcher</strong>, specializing in <strong>Computer Vision and NLP</strong>.  
+        I am an <strong>AI Researcher</strong>, specializing in <strong>Computer Vision and NLP</strong>.  
         <!-- Currently pursuing my <strong>MSc in Computer Vision at MBZUAI</strong>, I have research experience in  -->
         Upcomming <strong>MSc in Computer Vision </strong> student at <strong>MBZUAI</strong>, I have research experience in  
         diffusion models, vision-language modeling, segmentation, LLMs, RAG, and multimodal learning.
@@ -119,3 +129,6 @@
     <p>&copy; 2025 Ankan Deria. All Rights Reserved.</p>
 </footer>
 
+<script src="js/script.js"></script>
+</body>
+</html>

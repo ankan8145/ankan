@@ -9,18 +9,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
+  <script src="js/script.js"></script>
 
-  <!-- Fixed Navigation Bar -->
-  <header>
-    <nav class="fixed-nav">
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="projects.html">Projects</a></li>
+<!-- Fixed Navigation Bar with Hamburger -->
+<header>
+  <nav class="fixed-nav">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html">Ankan Deria</a>
+      </div>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+        <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
+        <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
       </ul>
-    </nav>
-  </header>
+    </div>
+  </nav>
+</header>
+
   
   <main>
     <!-- Hero Section -->
@@ -28,7 +39,7 @@
       <img src="assets/my_img.jpg" alt="Ankan Deria" class="profile-img animate__animated animate__zoomIn" />
       <h1 class="animate__animated animate__fadeInUp">Ankan Deria</h1>
       <p class="animate__animated animate__fadeInUp">
-        MSc Student in Computer Vision at <strong>MBZUAI</strong> || AI Researcher in <strong>Computer Vision & NLP</strong>
+        Researcher in Computer Vision at <strong>Jio Institute</strong> || AI Researcher in <strong>Computer Vision &amp; NLP</strong>
       </p>
     </section>
 
@@ -36,9 +47,10 @@
     <section id="about-preview" class="animate__animated animate__fadeInUp">
       <h2>About Me</h2>
       <p>
-        I am an upcoming MSc student at <strong>MBZUAI</strong>, specializing in <strong>Computer Vision and NLP</strong>. 
+        <!-- Currently I am a Researcher at <strong>Jio Institute</strong>, I am an upcoming MSc student at <strong>MBZUAI</strong>, specializing in <strong>Computer Vision and NLP</strong>. 
         My research focuses on <strong>diffusion models, vision-language modeling, LLMs, and multimodal AI</strong>. 
-        I have experience working on medical imaging, financial sentiment analysis, and generative AI.
+        I have experience working on medical imaging, financial sentiment analysis, and generative AI. -->
+        Currently, I am a Researcher at <strong>Jio Institute</strong> and an incoming MSc student in Computer Vision at <strong>MBZUAI</strong>. My research primarily focuses on Computer Vision and Natural Language Processing, with a keen focus on diffusion models, vision-language modeling, large language models (LLMs), retrieval-augmented generation (RAG), multi-modal RAG, and multimodal AI.
       </p>
       <a href="about.html" class="btn">Read More</a>
     </section>
@@ -80,9 +92,8 @@
       </p>
     </div>
     <p>&copy; 2025 Ankan Deria. All Rights Reserved.</p>
-</footer>
+  </footer>
 
-
-  <script src="js/script.js"></script>
+  <!-- <script src="js/script.js"></script> -->
 </body>
 </html>
